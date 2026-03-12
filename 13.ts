@@ -15,3 +15,5 @@ function setProductSize(Sizes: Sizes) {}
 
 setProductSize(Sizes.Medium); // valid
 // setProductSize(5); // Error: Argument of type '5' is not assignable to parameter of type 'Sizes'
+
+console.log(Sizes); // { Small: 1, Medium: 2, Large: 3 }
